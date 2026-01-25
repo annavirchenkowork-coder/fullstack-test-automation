@@ -1,0 +1,36 @@
+# ===== Maven =====
+target/
+*.log
+
+# ===== IntelliJ IDEA =====
+.idea/
+*.iml
+out/
+
+# ===== OS =====
+.DS_Store
+
+# ===== Allure =====
+allure-results/
+allure-report/
+
+# ===== Environment / secrets =====
+.env
+.env.*
+*.env
+
+# ===== Node =====
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn.lock
+
+# ===== Playwright =====
+playwright-report/
+test-results/
+videos/
+screenshots/
+
+# ===== Temporary files =====
+*.tmp
+*.swp
