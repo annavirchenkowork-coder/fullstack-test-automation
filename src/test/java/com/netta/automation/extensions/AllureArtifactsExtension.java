@@ -7,8 +7,6 @@ import org.junit.jupiter.api.extension.TestWatcher;
 
 import java.io.ByteArrayInputStream;
 import java.nio.charset.StandardCharsets;
-import java.util.Optional;
-
 public class AllureArtifactsExtension implements TestWatcher {
 
     private final Page page;
@@ -23,7 +21,7 @@ public class AllureArtifactsExtension implements TestWatcher {
         attachScreenshot();
     }
 
-    // Optional: attach URL even on success (comment out if you want only on failure)
+    // Optional: attach URL even on success
     @Override
     public void testSuccessful(ExtensionContext context) {
         // attachUrl();
